@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./img/fondo.jpg);
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+.cont_principal{
+width: 320px;
+height: 480px;
+background-color: lavender;
+color: mediumslateblue;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+border-radius: 35px;
+}
+
+.cont_principal .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+.cont_principal h1{
+    margin: 0px;
+    padding: 0  0 20px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.cont_principal label{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+}
+
+.cont_principal input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.cont_principal input[type="text"], 
+.cont_principal input[type="password"]{
+    border: none;
+    border-bottom: 3px solid mediumslateblue;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: blueviolet;
+    font-size: 1em;
+}
+
+.cont_principal input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(90, 1, 90);
+    color: antiquewhite;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.cont_principal a{
+    text-decoration: none;
+    color: hotpink;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.cont_principal a:hover{
+    color: rgb(182, 2, 101);
+}
